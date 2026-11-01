@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 全站防選取與防複製保護 */
+html, body, #root {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* 允許表單輸入框正常輸入文字與檢索 */
+input, textarea {
+  -webkit-user-select: auto;
+  -moz-user-select: auto;
+  -ms-user-select: auto;
+  user-select: auto;
+}
+
+/* 禁止圖片拖曳下載 */
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+/* 防列印與另存 PDF 保護 */
+@media print {
+  html, body {
+    display: none !important;
+  }
+}

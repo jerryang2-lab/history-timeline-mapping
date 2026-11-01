@@ -1,0 +1,6 @@
+{
+  "name": "歐洲歷史五百大事數據庫",
+  "description": "歐洲歷史五百大事結構化數據庫：涵蓋古典希臘羅馬至21世紀政治、文化、科學、宗教重大里程碑，具備精確人時地物、文明影響力評分與關聯文獻數據，支援即時檢索、世紀導航與 JSON/CSV 格式匯出。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
